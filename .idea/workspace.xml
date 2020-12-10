@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38859d2-6053-4906-bf09-749af26b1318" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-helloWorld/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-dataTypes/1-basic types/1.Signed Integers/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-dataTypes/1-basic types/2.Unsigned Integers/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-dataTypes/1-basic types/3.Float and Complex/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-dataTypes/1-basic types/4.Boolean and String/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-variableDeclarations/1-variable declaration/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-variableDeclarations/1-variable declaration/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-variableDeclarations/2-default values for data types/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-variableDeclarations/2-default values for data types/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +45,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lQfVGrmcKor4L6yQEHSgnSMecr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -66,7 +75,7 @@
       <module name="IntroductionToGoLang" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/02-variableDeclarations/main.go" />
+      <filePath value="$PROJECT_DIR$/03-dataTypes/1-basic types/Unsigned Integers/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -74,7 +83,7 @@
       <module name="IntroductionToGoLang" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/02-variableDeclarations/1-variable declaration/main.go" />
+      <filePath value="$PROJECT_DIR$/03-dataTypes/1-basic types/1.Signed Integers/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -82,7 +91,15 @@
       <module name="IntroductionToGoLang" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/02-variableDeclarations/2-default values for data types/main.go" />
+      <filePath value="$PROJECT_DIR$/03-dataTypes/1-basic types/4.Boolean and String/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="IntroductionToGoLang" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/03-dataTypes/1-basic types/Float and Complex/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -90,7 +107,7 @@
       <module name="IntroductionToGoLang" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/01-helloWorld/main.go" />
+      <filePath value="$PROJECT_DIR$/03-dataTypes/1-basic types/Signed Integers/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -100,6 +117,7 @@
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -127,27 +145,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="561" y="236" width="591" height="437" key="#Vim_Emulation" timestamp="1607604102896">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state x="561" y="236" width="591" height="437" key="#Vim_Emulation/0.34.1366.734@0.34.1366.734" timestamp="1607604102896" />
     <state x="137" y="34" width="1092" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607538873793">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="137" y="34" width="1092" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1607538873793" />
-    <state width="1308" height="155" key="GridCell.Tab.0.bottom" timestamp="1607578170746">
+    <state width="1308" height="155" key="GridCell.Tab.0.bottom" timestamp="1607605713162">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1607578170746" />
-    <state width="1308" height="155" key="GridCell.Tab.0.center" timestamp="1607578170745">
+    <state width="1308" height="155" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1607605713162" />
+    <state width="1308" height="155" key="GridCell.Tab.0.center" timestamp="1607605713161">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1607578170745" />
-    <state width="1308" height="155" key="GridCell.Tab.0.left" timestamp="1607578170745">
+    <state width="1308" height="155" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1607605713161" />
+    <state width="1308" height="155" key="GridCell.Tab.0.left" timestamp="1607605713161">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1607578170745" />
-    <state width="1308" height="155" key="GridCell.Tab.0.right" timestamp="1607578170746">
+    <state width="1308" height="155" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1607605713161" />
+    <state width="1308" height="155" key="GridCell.Tab.0.right" timestamp="1607605713161">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1607578170746" />
+    <state width="1308" height="155" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1607605713161" />
   </component>
 </project>

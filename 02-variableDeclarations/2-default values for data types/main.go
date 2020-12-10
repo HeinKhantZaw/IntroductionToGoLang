@@ -3,6 +3,15 @@ package main
 import "fmt"
 
 func main() {
+
+	//========================================================================================
+
+	// Uninitialized variables will have zero values as default
+
+	// 0 for numeric types,
+	// false for the boolean type, and
+	// "" (the empty string) for strings.
+
 	var (
 		strExample  string
 		unsignedNum uint      //different uint types (uint8 uint16 uint32 uint64 uintptr)
@@ -13,5 +22,6 @@ func main() {
 		runeType    rune      //same as int32 and also represent Unicode code points.
 		cond        bool
 	)
-	fmt.Printf("string:%s\nunsignedNum:%d\nbyteExample:%d\nnum:%d\n")
+	fmt.Printf("string:%s\nunsignedNum:%d\nbyteExample:%d\nnum:%d\nfloat:%f\ncomplex:%f\nrune:%d\ncond:%t\n",
+		strExample, unsignedNum, byteExample, num, doubleNum, complexNum, runeType, cond)
 }
