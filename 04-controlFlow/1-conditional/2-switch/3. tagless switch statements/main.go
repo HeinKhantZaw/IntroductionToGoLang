@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	// Actually, this is the short form of (if-else if) statement
+	//Switch without a condition is a clean way to write a long if-else if condition
 	var age int
 	fmt.Print("Enter your age:")
 

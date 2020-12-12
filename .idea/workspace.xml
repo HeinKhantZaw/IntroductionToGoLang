@@ -19,27 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38859d2-6053-4906-bf09-749af26b1318" name="Default Changelist" comment="add basic data types">
-      <change afterPath="$PROJECT_DIR$/02-variableDeclarations/2-variable scope/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-dataTypes/1-basic types/4. Boolean and String/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-controlFlow/1-conditional/1-if/1. if/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-controlFlow/1-conditional/1-if/2. if-else/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-controlFlow/1-conditional/1-if/3. if-else if/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-controlFlow/1-conditional/2-switch/1. switch case/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-controlFlow/1-conditional/2-switch/2. multiple switch cases/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-controlFlow/1-conditional/2-switch/3. tagless switch statements/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-controlFlow/2-loops/1. for loop/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-controlFlow/2-loops/2. infinite for loop/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-controlFlow/2-loops/3. for without initialization/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-controlFlow/2-loops/4. for without increment/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-controlFlow/2-loops/5. for loop with break/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-controlFlow/2-loops/6. for loop with continue/main.go" afterDir="false" />
+    <list default="true" id="d38859d2-6053-4906-bf09-749af26b1318" name="Default Changelist" comment="add control flow">
+      <change afterPath="$PROJECT_DIR$/02-variableDeclarations/3-unused variables/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-constants/1-constants/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-constants/2-iota/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-functions/1-main and init/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-functions/2-function declaration/1. parameters and arguments/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-pointers/1-pointer declaration/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-pointers/2-referencing/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-pointers/3-dereferencing/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-pointers/4-using pointers/1. without pointer/01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-pointers/4-using pointers/1. without pointer/02_see-the-addresses/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-pointers/4-using pointers/2. with pointer/01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-pointers/4-using pointers/2. with pointer/02_see-the-addresses/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-variableDeclarations/2-default values for data types/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-dataTypes/2-default values/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-dataTypes/1-basic types/1.Signed Integers/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-dataTypes/1-basic types/1. Signed Integers/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-dataTypes/1-basic types/2.Unsigned Integers/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-dataTypes/1-basic types/2. Unsigned Integers/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-dataTypes/1-basic types/3.Float and Complex/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-dataTypes/1-basic types/3. Float and Complex/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-dataTypes/1-basic types/4.Boolean and String/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-controlFlow/1-conditional/2-switch/3. tagless switch statements/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/04-controlFlow/1-conditional/2-switch/3. tagless switch statements/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-controlFlow/2-loops/1. for loop/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/04-controlFlow/2-loops/1. for loop/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/04-controlFlow" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/06-pointers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -79,23 +74,24 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/04-controlFlow" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/06-functions/2-function declaration" />
+      <recent name="$PROJECT_DIR$/02-variableDeclarations" />
       <recent name="$PROJECT_DIR$/04-controlFlow/2-loops" />
       <recent name="$PROJECT_DIR$/04-controlFlow/1-Conditional/2-switch" />
       <recent name="$PROJECT_DIR$/04-controlFlow/1-Conditional/1.if" />
-      <recent name="$PROJECT_DIR$/04-controlFlow/1-Conditional" />
-      <recent name="$PROJECT_DIR$/04-controlFlow/1-if" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/06-pointers" />
+      <recent name="$PROJECT_DIR$/04-controlFlow" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
+  <component name="RunManager" selected="Go Build.go build main.go (4)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="IntroductionToGoLang" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/04-controlFlow/2-loops/5. for loop with break/main.go" />
+      <filePath value="$PROJECT_DIR$/06-pointers/2-pointer declaration/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -103,15 +99,7 @@
       <module name="IntroductionToGoLang" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/04-controlFlow/2-loops/6. for loop with continue/main.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="IntroductionToGoLang" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/04-controlFlow/2-loops/4. infinite for loop/main.go" />
+      <filePath value="$PROJECT_DIR$/06-pointers/3-dereferencing/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -119,7 +107,15 @@
       <module name="IntroductionToGoLang" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/04-controlFlow/8-for without initialization/main.go" />
+      <filePath value="$PROJECT_DIR$/06-functions/2-function declaration/1. parameters and arguments/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="IntroductionToGoLang" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/06-functions/1-main and init/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -127,17 +123,17 @@
       <module name="IntroductionToGoLang" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/04-controlFlow/2-loops/4. for without increment/main.go" />
+      <filePath value="$PROJECT_DIR$/06-pointers/1-referencing/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (4)" />
+        <item itemvalue="Go Build.go build main.go (5)" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build main.go (3)" />
-        <item itemvalue="Go Build.go build main.go (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607605786825</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add control flow">
+      <created>1607616276350</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607616276350</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +180,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add basic data types" />
-    <option name="LAST_COMMIT_MESSAGE" value="add basic data types" />
+    <MESSAGE value="add control flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="add control flow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="561" y="236" width="591" height="437" key="#Vim_Emulation" timestamp="1607604102896">
@@ -188,41 +192,41 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="137" y="34" width="1092" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1607538873793" />
-    <state width="1308" height="155" key="GridCell.Tab.0.bottom" timestamp="1607615729925">
+    <state width="1308" height="155" key="GridCell.Tab.0.bottom" timestamp="1607797566221">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1607615729925" />
-    <state width="1308" height="155" key="GridCell.Tab.0.center" timestamp="1607615729925">
+    <state width="1308" height="155" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1607797566221" />
+    <state width="1308" height="155" key="GridCell.Tab.0.center" timestamp="1607797566220">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1607615729925" />
-    <state width="1308" height="155" key="GridCell.Tab.0.left" timestamp="1607615729925">
+    <state width="1308" height="155" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1607797566220" />
+    <state width="1308" height="155" key="GridCell.Tab.0.left" timestamp="1607797566220">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1607615729925" />
-    <state width="1308" height="155" key="GridCell.Tab.0.right" timestamp="1607615729925">
+    <state width="1308" height="155" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1607797566220" />
+    <state width="1308" height="155" key="GridCell.Tab.0.right" timestamp="1607797566221">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1607615729925" />
-    <state width="1308" height="195" key="GridCell.Tab.1.bottom" timestamp="1607609629909">
+    <state width="1308" height="155" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1607797566221" />
+    <state width="1308" height="195" key="GridCell.Tab.1.bottom" timestamp="1607617900081">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="195" key="GridCell.Tab.1.bottom/0.34.1366.734@0.34.1366.734" timestamp="1607609629909" />
-    <state width="1308" height="195" key="GridCell.Tab.1.center" timestamp="1607609629908">
+    <state width="1308" height="195" key="GridCell.Tab.1.bottom/0.34.1366.734@0.34.1366.734" timestamp="1607617900081" />
+    <state width="1308" height="195" key="GridCell.Tab.1.center" timestamp="1607617900080">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="195" key="GridCell.Tab.1.center/0.34.1366.734@0.34.1366.734" timestamp="1607609629908" />
-    <state width="1308" height="195" key="GridCell.Tab.1.left" timestamp="1607609629908">
+    <state width="1308" height="195" key="GridCell.Tab.1.center/0.34.1366.734@0.34.1366.734" timestamp="1607617900080" />
+    <state width="1308" height="195" key="GridCell.Tab.1.left" timestamp="1607617900079">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="195" key="GridCell.Tab.1.left/0.34.1366.734@0.34.1366.734" timestamp="1607609629908" />
-    <state width="1308" height="195" key="GridCell.Tab.1.right" timestamp="1607609629909">
+    <state width="1308" height="195" key="GridCell.Tab.1.left/0.34.1366.734@0.34.1366.734" timestamp="1607617900079" />
+    <state width="1308" height="195" key="GridCell.Tab.1.right" timestamp="1607617900080">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="195" key="GridCell.Tab.1.right/0.34.1366.734@0.34.1366.734" timestamp="1607609629909" />
-    <state x="178" y="74" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1607605799710">
+    <state width="1308" height="195" key="GridCell.Tab.1.right/0.34.1366.734@0.34.1366.734" timestamp="1607617900080" />
+    <state x="178" y="74" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1607616280842">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="178" y="74" width="1000" height="661" key="Vcs.Push.Dialog.v2/0.34.1366.734@0.34.1366.734" timestamp="1607605799710" />
+    <state x="178" y="74" width="1000" height="661" key="Vcs.Push.Dialog.v2/0.34.1366.734@0.34.1366.734" timestamp="1607616280842" />
   </component>
 </project>
