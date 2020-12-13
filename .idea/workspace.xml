@@ -19,22 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38859d2-6053-4906-bf09-749af26b1318" name="Default Changelist" comment="add control flow">
-      <change afterPath="$PROJECT_DIR$/02-variableDeclarations/3-unused variables/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-constants/1-constants/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-constants/2-iota/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-functions/1-main and init/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-functions/2-function declaration/1. parameters and arguments/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-pointers/1-pointer declaration/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-pointers/2-referencing/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-pointers/3-dereferencing/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-pointers/4-using pointers/1. without pointer/01/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-pointers/4-using pointers/1. without pointer/02_see-the-addresses/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-pointers/4-using pointers/2. with pointer/01/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-pointers/4-using pointers/2. with pointer/02_see-the-addresses/main.go" afterDir="false" />
+    <list default="true" id="d38859d2-6053-4906-bf09-749af26b1318" name="Default Changelist" comment="add constants and pointers">
+      <change afterPath="$PROJECT_DIR$/06-functions/2-function declaration/1-parameters and arguments/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-functions/2-function declaration/2-return/1.single return/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-functions/2-function declaration/2-return/2.multiple return/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-functions/2-function declaration/2-return/3.named return/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-functions/2-function declaration/2-return/4.returning error/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-controlFlow/1-conditional/2-switch/3. tagless switch statements/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/04-controlFlow/1-conditional/2-switch/3. tagless switch statements/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-controlFlow/2-loops/1. for loop/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/04-controlFlow/2-loops/1. for loop/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-functions/2-function declaration/1. parameters and arguments/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-pointers/4-using pointers/1. without pointer/01/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/07-pointers/4-using pointers/1-without pointer/01/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-pointers/4-using pointers/1. without pointer/02_see-the-addresses/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/07-pointers/4-using pointers/1-without pointer/02_see-the-addresses/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-pointers/4-using pointers/2. with pointer/01/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/07-pointers/4-using pointers/2-with pointer/01/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-pointers/4-using pointers/2. with pointer/02_see-the-addresses/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/07-pointers/4-using pointers/2-with pointer/02_see-the-addresses/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,15 +61,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/06-pointers" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/06-pointers" />
+      <recent name="$PROJECT_DIR$/04-controlFlow" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/06-functions/2-function declaration" />
       <recent name="$PROJECT_DIR$/02-variableDeclarations" />
@@ -81,25 +82,21 @@
       <recent name="$PROJECT_DIR$/04-controlFlow/1-Conditional/2-switch" />
       <recent name="$PROJECT_DIR$/04-controlFlow/1-Conditional/1.if" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/06-pointers" />
-      <recent name="$PROJECT_DIR$/04-controlFlow" />
-    </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (4)">
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="IntroductionToGoLang" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/06-pointers/2-pointer declaration/main.go" />
+      <filePath value="$PROJECT_DIR$/06-functions/2-function declaration/2-return/4.returning error/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="IntroductionToGoLang" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/06-pointers/3-dereferencing/main.go" />
+      <filePath value="$PROJECT_DIR$/06-functions/2-function declaration/2-return/2.multiple return/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -123,17 +120,17 @@
       <module name="IntroductionToGoLang" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/06-pointers/1-referencing/main.go" />
+      <filePath value="$PROJECT_DIR$/06-functions/2-function declaration/2-return/3.named return/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (4)" />
-        <item itemvalue="Go Build.go build main.go (5)" />
-        <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (3)" />
+        <item itemvalue="Go Build.go build main.go (4)" />
+        <item itemvalue="Go Build.go build main.go (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607616276350</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add constants and pointers">
+      <created>1607797699844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607797699844</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +185,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add basic data types" />
     <MESSAGE value="add control flow" />
-    <option name="LAST_COMMIT_MESSAGE" value="add control flow" />
+    <MESSAGE value="add constants and pointers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add constants and pointers" />
   </component>
   <component name="WindowStateProjectService">
     <state x="561" y="236" width="591" height="437" key="#Vim_Emulation" timestamp="1607604102896">
@@ -192,41 +197,49 @@
       <screen x="0" y="34" width="1366" height="734" />
     </state>
     <state x="137" y="34" width="1092" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.34.1366.734@0.34.1366.734" timestamp="1607538873793" />
-    <state width="1308" height="155" key="GridCell.Tab.0.bottom" timestamp="1607797566221">
+    <state width="1308" height="155" key="GridCell.Tab.0.bottom" timestamp="1607834193960">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1607797566221" />
-    <state width="1308" height="155" key="GridCell.Tab.0.center" timestamp="1607797566220">
+    <state width="1308" height="155" key="GridCell.Tab.0.bottom/0.34.1366.734@0.34.1366.734" timestamp="1607834193960" />
+    <state width="1308" height="155" key="GridCell.Tab.0.center" timestamp="1607834193960">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1607797566220" />
-    <state width="1308" height="155" key="GridCell.Tab.0.left" timestamp="1607797566220">
+    <state width="1308" height="155" key="GridCell.Tab.0.center/0.34.1366.734@0.34.1366.734" timestamp="1607834193960" />
+    <state width="1308" height="155" key="GridCell.Tab.0.left" timestamp="1607834193959">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1607797566220" />
-    <state width="1308" height="155" key="GridCell.Tab.0.right" timestamp="1607797566221">
+    <state width="1308" height="155" key="GridCell.Tab.0.left/0.34.1366.734@0.34.1366.734" timestamp="1607834193959" />
+    <state width="1308" height="155" key="GridCell.Tab.0.right" timestamp="1607834193960">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1607797566221" />
-    <state width="1308" height="195" key="GridCell.Tab.1.bottom" timestamp="1607617900081">
+    <state width="1308" height="155" key="GridCell.Tab.0.right/0.34.1366.734@0.34.1366.734" timestamp="1607834193960" />
+    <state width="1308" height="195" key="GridCell.Tab.1.bottom" timestamp="1607831723380">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="195" key="GridCell.Tab.1.bottom/0.34.1366.734@0.34.1366.734" timestamp="1607617900081" />
-    <state width="1308" height="195" key="GridCell.Tab.1.center" timestamp="1607617900080">
+    <state width="1308" height="195" key="GridCell.Tab.1.bottom/0.34.1366.734@0.34.1366.734" timestamp="1607831723380" />
+    <state width="1308" height="195" key="GridCell.Tab.1.center" timestamp="1607831723380">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="195" key="GridCell.Tab.1.center/0.34.1366.734@0.34.1366.734" timestamp="1607617900080" />
-    <state width="1308" height="195" key="GridCell.Tab.1.left" timestamp="1607617900079">
+    <state width="1308" height="195" key="GridCell.Tab.1.center/0.34.1366.734@0.34.1366.734" timestamp="1607831723380" />
+    <state width="1308" height="195" key="GridCell.Tab.1.left" timestamp="1607831723380">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="195" key="GridCell.Tab.1.left/0.34.1366.734@0.34.1366.734" timestamp="1607617900079" />
-    <state width="1308" height="195" key="GridCell.Tab.1.right" timestamp="1607617900080">
+    <state width="1308" height="195" key="GridCell.Tab.1.left/0.34.1366.734@0.34.1366.734" timestamp="1607831723380" />
+    <state width="1308" height="195" key="GridCell.Tab.1.right" timestamp="1607831723380">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state width="1308" height="195" key="GridCell.Tab.1.right/0.34.1366.734@0.34.1366.734" timestamp="1607617900080" />
-    <state x="178" y="74" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1607616280842">
+    <state width="1308" height="195" key="GridCell.Tab.1.right/0.34.1366.734@0.34.1366.734" timestamp="1607831723380" />
+    <state x="47" y="34" width="1261" height="734" key="SettingsEditor" timestamp="1607831164765">
       <screen x="0" y="34" width="1366" height="734" />
     </state>
-    <state x="178" y="74" width="1000" height="661" key="Vcs.Push.Dialog.v2/0.34.1366.734@0.34.1366.734" timestamp="1607616280842" />
+    <state x="47" y="34" width="1261" height="734" key="SettingsEditor/0.34.1366.734@0.34.1366.734" timestamp="1607831164765" />
+    <state x="178" y="74" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1607797711953">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state x="178" y="74" width="1000" height="661" key="Vcs.Push.Dialog.v2/0.34.1366.734@0.34.1366.734" timestamp="1607797711953" />
+    <state x="262" y="34" width="840" height="1034" key="search.everywhere.popup" timestamp="1607831093109">
+      <screen x="0" y="34" width="1366" height="734" />
+    </state>
+    <state x="262" y="34" width="840" height="1034" key="search.everywhere.popup/0.34.1366.734@0.34.1366.734" timestamp="1607831093109" />
   </component>
 </project>
